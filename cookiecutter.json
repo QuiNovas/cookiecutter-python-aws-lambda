@@ -1,0 +1,14 @@
+{
+  "author_email": "me@me.org",
+  "author_name": "me",
+  "circleci_lupload_context": "lupload",
+  "dev_status": "3 - Alpha",
+  "lambda_description": "my lambda",
+  "lambda_name": "my-lambda",
+  "lambda_python_version": "2.7",
+  "lambda_version": "0.0.1",
+  "license": "APL2",
+  "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+  "long_description": "The long description for my lambda",
+  "lupload_prefix": "/"
+}

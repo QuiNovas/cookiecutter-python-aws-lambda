@@ -1,0 +1,6 @@
+## Python requirements for using the python-aws-lambda template. 
+##
+##    pip install --requirement=requirements.txt
+##
+cookiecutter>=1.5
+lambda-setuptools>=0.2.2
