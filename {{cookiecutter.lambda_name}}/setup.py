@@ -68,7 +68,7 @@ setup(
 
     keywords=lambda_keywords,
 
-    install_requires=filter(lambda x : x not in ['boto3', 'botocore'], lambda_install_requires),
+    install_requires=[x for x in lambda_install_requires if x not in ['boto3', 'botocore']],
 
     package_dir={'': 'src'},
     packages=find_packages('src'),
